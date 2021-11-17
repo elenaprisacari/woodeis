@@ -193,3 +193,37 @@ section#about > .articleBlock > .article2 > .textBlock > p {
     font-size: 24px;
     font-weight: 600;
 }
+
+section#how > .contentBlock {
+    display: grid;
+    grid-row: 1fr auto;
+}
+
+section#how > .contentBlock > .imageContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+section#how > .contentBlock > .imageContainer > .number {
+    margin: 0px;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 96px;
+    color: rgba(249, 189, 189, 0.25);
+    justify-self: end;
+    align-self: end;
+}
+
+section#how > .contentBlock > .button {
+    justify-self: center;
+    box-sizing: border-box;
+
+    background-color: rgba(218, 165, 32, 1);
+    color: #ffffff;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 60px;
+    padding: 14px 24px;
+}
