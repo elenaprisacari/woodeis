@@ -421,3 +421,55 @@ section#testimony > .container > .navStage > .activeStage {
     background-color: #daa520;
     border-radius: 8px;
 }
+
+section#subscribe {
+    display: grid;
+    margin: 120px 0px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+section#subscribe > #textBlock {
+}
+
+section#subscribe > #textBlock > .textHeader {
+    margin: 0px;
+    font-weight: 700;
+}
+
+section#subscribe > #textBlock > .subText {
+    margin: 0px;
+    font-weight: 400;
+}
+
+section#subscribe > #inputBlock {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-self: end;
+}
+
+section#subscribe > #inputBlock > .input {
+    height: 40px;
+    width: 330px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 1px solid #daa520;
+    border-radius: 4px 0px 0px 4px;
+    box-sizing: border-box;
+}
+
+section#subscribe > #inputBlock > .subButtondiv {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(218, 165, 32, 1);
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+}
