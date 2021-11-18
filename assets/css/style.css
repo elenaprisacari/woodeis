@@ -453,7 +453,7 @@ section#subscribe > #inputBlock {
 section#subscribe > #inputBlock > .input {
     height: 40px;
     width: 330px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 16px;
     border: 1px solid #daa520;
     border-radius: 4px 0px 0px 4px;
@@ -472,4 +472,78 @@ section#subscribe > #inputBlock > .subButtondiv {
     background-color: rgba(218, 165, 32, 1);
     color: white;
     border-radius: 0px 4px 4px 0px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+}
+
+footer > .image {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    height: 270px;
+    width: 350px;
+}
+
+footer > .control {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    grid-template-rows: auto auto 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    height: 80%;
+}
+
+footer > .copyright {
+    grid-column: 1/3;
+    justify-self: center;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+footer > .control > .line {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    grid-column: 1/6;
+    height: 2px;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+footer figure {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0;
+}
+
+footer figure img {
+    width: 30px;
+    height: 30px;
+}
+footer figure figcaption {
+    color: #3e3f43;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Nunito;
+    margin-left: 10px;
+}
+
+footer > .control > .header {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+}
+
+footer > .control > .simple {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(141, 141, 141, 1);
+    margin: 0px;
 }
